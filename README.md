@@ -25,7 +25,7 @@ models/best_model.pkl
 
 **0 → Low Risk**
 
-### Project Structure
+## 📁 Project Structure
 .
 ├── app.py
 ├── models/
@@ -34,6 +34,7 @@ models/best_model.pkl
 │   ├── user.html
 │   └── index.html
 └── README.md
+
 
 ### Installation
 1. Clone the repository
@@ -45,12 +46,12 @@ python -m venv venv
 
 3. Activate the virtual environment
 
-Windows
+**Windows:**
 
 venv\Scripts\activate
 
 
-macOS / Linux
+**macOS / Linux**
 
 source venv/bin/activate
 
