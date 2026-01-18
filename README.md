@@ -1,9 +1,9 @@
-#Heart Attack Prediction Web App
+# Heart Attack Prediction Web App
 
 This is a Flask web application that predicts the risk of a heart attack using a trained machine learning model (best_model.pkl).
 The app collects user input through a form, processes it, and returns a prediction as either High Risk or Low Risk.
 
-##Features
+## Features
 
 - User-friendly form for entering health parameters
 
@@ -35,7 +35,7 @@ models/best_model.pkl
 │   └── index.html
 └── README.md
 
-###Installation
+### Installation
 1. Clone the repository
 git clone https://github.com/AWAL-Prajwol/heart-attack-prediction.git
 cd heart-attack-prediction
@@ -97,7 +97,7 @@ Example Input Data
   "sedentaryHours": 6
 }
 
-Notes
+**Notes**
 
 - Ensure models/best_model.pkl exists.
 
