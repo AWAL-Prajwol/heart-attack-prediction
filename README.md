@@ -26,6 +26,7 @@ models/best_model.pkl
 **0 → Low Risk**
 
 ## 📁 Project Structure
+```
 .
 ├── app.py
 ├── models/
@@ -34,6 +35,7 @@ models/best_model.pkl
 │   ├── user.html
 │   └── index.html
 └── README.md
+```
 
 
 ### Installation
