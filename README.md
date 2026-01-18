@@ -1,31 +1,31 @@
-Heart Attack Prediction Web App
+#Heart Attack Prediction Web App
 
 This is a Flask web application that predicts the risk of a heart attack using a trained machine learning model (best_model.pkl).
 The app collects user input through a form, processes it, and returns a prediction as either High Risk or Low Risk.
 
-Features
+##Features
 
-User-friendly form for entering health parameters
+- User-friendly form for entering health parameters
 
-Predicts heart attack risk using a trained ML model
+- Predicts heart attack risk using a trained ML model
 
-Returns results in JSON format
+- Returns results in JSON format
 
-Built using Flask and joblib
+- Built using Flask and joblib
 
-Model
+**Model**
 
 The trained model is stored in:
 
 models/best_model.pkl
 
-Model output:
+**Model output:**
 
-1 → High Risk
+**1 → High Risk**
 
-0 → Low Risk
+**0 → Low Risk**
 
-Project Structure
+###Project Structure
 .
 ├── app.py
 ├── models/
@@ -35,9 +35,9 @@ Project Structure
 │   └── index.html
 └── README.md
 
-Installation
+###Installation
 1. Clone the repository
-git clone https://github.com/YOUR_USERNAME/heart-attack-prediction.git
+git clone https://github.com/AWAL-Prajwol/heart-attack-prediction.git
 cd heart-attack-prediction
 
 2. Create a virtual environment (recommended)
@@ -55,7 +55,7 @@ macOS / Linux
 source venv/bin/activate
 
 4. Install required packages
-pip install flask joblib numpy
+Use `pip install flask joblib numpy`
 
 Running the App
 python app.py
@@ -99,8 +99,8 @@ Example Input Data
 
 Notes
 
-Ensure models/best_model.pkl exists.
+- Ensure models/best_model.pkl exists.
 
-Input values must be sent in the same order as in the code.
+- Input values must be sent in the same order as in the code.
 
-Make sure templates/ folder contains user.html and index.html.
+- Make sure templates/ folder contains user.html and index.html.
